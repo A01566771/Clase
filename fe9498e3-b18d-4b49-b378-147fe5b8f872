@@ -1,0 +1,9 @@
+﻿_id,Nombre de la Variable,Definicion,Tipo de variable
+1,Alcaldía,"Sustantivo propio que identifica al municipio y/o alcaldía de conformidad con el catálogo único de claves de áreas geoestadísticas estatales, municipales y localidades del INEGI.",Alfanumérica
+2,Colonia,"Sustantivo propio que identifica a la Colonia con el catálogo único de claves de áreas geoestadísticas estatales, municipales y localidades del INEGI.",Alfanumérica
+3,ID,Identificador unívoco del sitio con internet gratuito habilitado.,Alfanumérica
+4,Latitud,"Representación cartesiana en formato decimal de la posición de un elemento en el espacio bidimensional y que representa al eje ""Y"".",Numérico (flotante)
+5,Longitud,"Representación cartesiana en formato decimal de la posición de un elemento en el espacio bidimensional y que representa al eje ""X"".",Numérico (flotante)
+6,Programa,Programa de WiFi público con el que se identifica la pertenencia del sitio público.,Alfanumérica
+7,Puntos_de_acceso,Dato que indica el número de puntos de acceso inalámbrico instalados en el sitio habilitado con Internet gratuito,Alfanumérica
+8,Sitios,Dato que indica el número de inmuebles o edificaciones donde se alojan los Puntos de Acceso.,Numérico (entero)
