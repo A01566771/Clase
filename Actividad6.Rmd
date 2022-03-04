@@ -1,0 +1,58 @@
+---
+title: "Actividad 6"
+author: "Regina Araiza"
+date: "9/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Medidas resumen de una muestra
+
+### Leyendo los datos del INEGI (ENIGH 2018)
+```{r}
+M=read.csv("enigh2018_3v.csv")
+```
+
+
+## Medidas resumen
+
+```{r}
+x=M$edad_jefe
+
+mean(x)
+median(x)
+rango_medio=(max(x)+min(x))/2
+rango_medio
+var(x)
+sd(x)
+cv=sd(x)/mean(x)
+cv
+```
+
+## Grafica de los datos edad de jefe de familia
+
+Vamos a construir un histograma
+
+```{r}
+hist(x, main="edades de los jefes de familia", xlab="edades", ylab="Frecuencias", col=2:8)
+```
+
+## Tabla de frecuencias de las edades
+
+```{r}
+library(fdth)
+Tabla= fdt(x, breaks= "Sturges")
+Tabla
+
+
+```
+
+
+
+
+
+
+
